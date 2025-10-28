@@ -8,5 +8,6 @@ function onBallClick(elBall) {
     if (gSize > 400) gSize = 100
     elBall.style.width = gSize + 'px'
     elBall.style.height = gSize + 'px'
-
+    const randColor = getRandomColor()
+    elBall.style.backgroundColor = randColor
 }
