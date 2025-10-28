@@ -4,11 +4,16 @@ body{
 }
 
 .ball {
+    display: flex;
     width: 100px;
     height: 100px;
     margin: 50px auto;
     
     background-color: violet;
     border-radius: 50%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: bold;
 }
