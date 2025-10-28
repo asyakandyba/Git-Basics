@@ -1,5 +1,9 @@
 'use strict'
 
-function onBallClick(){
-    console.log('Hello')
+var gSize = 100
+
+function onBallClick(elBall) {
+    gSize += 50
+    elBall.style.width = gSize + 'px'
+    elBall.style.height = gSize + 'px'
 }
