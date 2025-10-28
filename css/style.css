@@ -22,42 +22,15 @@ body {
 }
 
 .another-ball {
-    width: 100px;
-    height: 100px;
-
     background-color: violet;
-    border-radius: 50%;
-
-    cursor: pointer;
-    transition: 1s;
 }
 
 .ball3 {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-
     background-color: crimson;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-
-
-    cursor: pointer;
 }
 
 .ball4 {
-    display: flex;
     width: 150px;
     height: 150px;
-    margin: 30px auto;
-
     background-color: palevioletred;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-
-
-    cursor: pointer;
 }
