@@ -20,3 +20,14 @@ body{
     cursor: pointer;
     transition: 1s;
 }
+
+.another-ball {
+    width: 100px;
+    height: 100px;
+    
+    background-color: violet;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: 1s;
+}
